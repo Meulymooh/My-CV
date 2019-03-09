@@ -41,13 +41,6 @@ ul {
 
 /* BLOCKS */
 
-.avatar {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  border: 6px solid #f5f5f0;
-}
-
 .wrapper {
 	width: 100%;
 	background-color: #f5f5f0;
@@ -58,6 +51,20 @@ ul {
 	background-color: white;
 }
 
+.avatar-box {
+		text-align: center;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 6px solid #f5f5f0;
+}
+
+.name {
+	text-align: center;
+}
 .top-1 {
 	background: linear-gradient(to bottom, #f5f5f0 50%, #ffffff 50%);
 }
@@ -71,6 +78,14 @@ ul {
 	border-bottom: 5px double #f5f5f0;
 }
 
+.separation {
+	background-color: #ff4d4d;
+	font-family: 'Rubik', sans-serif; 
+	font-size: large;
+	line-height: 0.1;
+	padding-bottom: 30px;
+	border-bottom: 5px double #f5f5f0;
+}
 .title {
 	background: white;
 	font-family: 'Rubik', sans-serif; 
@@ -117,10 +132,12 @@ ul {
 .contact {
 	border-right: 0.5px solid #e6e6e6;
 	border-bottom: 0.5px solid #e6e6e6;
+	text-align: center;
 }
 
 .contact-2 {
 	border-right: 0.5px solid #e6e6e6;
+	text-align: center;
 }
 
 .it {
